@@ -1,0 +1,12 @@
+exports.config = {
+    options: { 
+        debug: true,
+        port: 6667,
+        server: 'irc.freenode.net',
+        nick: 'YOUR_NICK',
+        channels: ['#geoloqi']
+    },
+    jid: 'gmail address',
+    jid_password: 'gmail password'
+}
+    

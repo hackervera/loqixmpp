@@ -1,0 +1,11 @@
+dependencies:
+node: http://nodejs.org
+npm: http://npmjs.org
+coffeescript [ npm install coffee-script ]
+node-xmpp [ npm install node-xmpp ]
+node-irc [ npm install node-irc ]
+
+rename config.js.sample to config.js AND EDIT
+
+run with [ coffee geoirc.coffee ]
+
