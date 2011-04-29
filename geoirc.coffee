@@ -7,7 +7,7 @@ client.addListener 'registered', ->
     console.log 'registered'
 
 client.addListener 'message', (from, to, message)->
-    if match = message.match(/.*?twitter.com\/tylergillies.*?(http.*?)$/)
+    if match = message.match(///.*?twitter.com/#{config.twittername}.*?(http.*?)$///)
             console.log match[1]
             pres = new xmpp.Element('presence').c('status').t(match[1])
             cl = new xmpp.Client

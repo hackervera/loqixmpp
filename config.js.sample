@@ -7,6 +7,7 @@ exports.config = {
         channels: ['#geoloqi']
     },
     jid: 'gmail address',
-    jid_password: 'gmail password'
+    jid_password: 'gmail password',
+    twittername: 'your twitter screen name'
 }
     
